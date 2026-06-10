@@ -18,12 +18,82 @@
           <span>Fabian Kresse</span>
         </a>
         <nav class="nav" aria-label="Primary navigation">
+          <a href="#bio">Bio</a>
           <a href="#publications">Publications</a>
         </nav>
       </div>
     </header>
 
     <main>
+      <section class="bio" id="bio" aria-labelledby="bio-title">
+  <div class="section-heading">
+    <h1 id="bio-title">Bio</h1>
+  </div>
+
+  <div class="bio-content">
+    <div class="bio-intro">
+      <p class="bio-lead">
+        Hello there! I am a machine learning PhD student at the Institute of Science and
+        Technology Austria (ISTA), working with Christoph Lampert and Thomas Henzinger.
+      </p>
+
+      <p>
+        My research focuses on efficient and verifiable learning systems,
+        particularly neural architectures based on logic circuits. I am interested in models that are data-driven, but can also give us formal guarantees. 
+      </p>
+
+      <p>
+        Before joining ISTA, I studied computer engineering at TU Wien. Back then I was involved in various projects,
+        mainly autonomous racing and building rockets. As I want to get back into building non-digital things, I am currently building a RC plane. 
+      </p>
+    </div>
+
+    <div class="bio-gallery" aria-label="Selected projects and activities">
+      <figure class="bio-photo bio-photo-wide">
+        <img
+          src="f1tenth.webp"
+          alt="Fabian Kresse with the Scuderia Segfault autonomous racing team"
+          loading="lazy"
+        >
+        <figcaption>
+          Autonomous racing with Scuderia Segfault. 1st place at IROS 2021. 2nd place at ICRA 2023.
+          <span>Photo: F1TENTH / mlcontests.com</span>
+        </figcaption>
+      </figure>
+
+      <figure class="bio-photo">
+        <img
+          src="spaceteam.jpg"
+          alt="Fabian Kresse with members of the TU Wien Space Team"
+          loading="lazy"
+        >
+        <figcaption>
+          At C'Space 2020, where I headed development of the rocket STR-09 'Asimov'.
+          <span>Photo: TU Wien Space Team / spaceteam.at</span>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="bio-details">
+      <article class="bio-detail">
+        <span class="bio-detail-label">Research</span>
+        <p>
+          Logic gate neural networks, Boolean networks, efficient inference,
+          verification, and learning-based control.
+        </p>
+      </article>
+
+      <article class="bio-detail">
+        <span class="bio-detail-label">Previously</span>
+        <p>
+          TU Wien, European Space Agency, Scuderia Segfault, and the TU Wien
+          Space Team.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
       <section class="publications" id="publications" aria-labelledby="publications-title">
         <div class="section-heading">
           <h1 id="publications-title">Publications</h1>
@@ -187,6 +257,21 @@
           </li>
         </ol>
       </section>
-    </main>
-  </body>
+
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <strong>Fabian Kresse</strong>
+      <p>Machine Learning PhD student at ISTA</p>
+    </div>
+
+    <div class="footer-links" aria-label="Contact and profiles">
+      <a href="mailto:fabian.kresse@ista.ac.at">Email</a>
+      <a href="https://github.com/FKresse" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/fabiankresse" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+</body>
 </html>
