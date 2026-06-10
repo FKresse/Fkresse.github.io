@@ -100,17 +100,17 @@ main {
 
 .publications {
   display: grid;
-  grid-template-columns: minmax(390px, 430px) minmax(0, 1fr);
+  grid-template-columns: minmax(260px, 430px) minmax(0, 1fr);
   gap: clamp(22px, 2.8vw, 38px);
-  padding: clamp(54px, 9vw, 96px) 0 clamp(70px, 10vw, 120px);
 }
 
 .section-heading {
   position: sticky;
   top: 112px;
   align-self: start;
-  padding-left: clamp(84px, 8vw, 128px);
-  white-space: nowrap;
+  justify-self: center;
+  padding-left: 0;
+  white-space: normal;
 }
 
 h1,
